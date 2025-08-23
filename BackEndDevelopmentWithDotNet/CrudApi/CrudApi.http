@@ -1,0 +1,44 @@
+@CrudApi_HostAddress = http://localhost:5037
+
+GET {{CrudApi_HostAddress}}/
+Accept: application/json
+
+###
+
+GET {{CrudApi_HostAddress}}/blogs/
+Accept: application/json
+
+###
+
+GET {{CrudApi_HostAddress}}/blogs/1
+Accept: application/json
+
+###
+
+
+POST {{CrudApi_HostAddress}}/blogs
+Content-Type: application/json
+Accept: application/json
+
+{
+    "title": "My Third Blog",
+    "body": "This is my third blog"
+}
+
+###
+
+DELETE  {{CrudApi_HostAddress}}/blogs/1
+Accept: application/json
+
+###
+
+PUT {{CrudApi_HostAddress}}/blogs/1
+Content-Type: application/json
+Accept: application/json
+
+{
+    "title": "Updated Second Blog",
+    "body": "This is updated blog"
+}
+
+###

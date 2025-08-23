@@ -1,0 +1,19 @@
+Get http://localhost:5094/users/10/posts/buffalo
+
+###
+Get http://localhost:5094/products/20
+
+###
+Get http://localhost:5094/report/2025
+
+###
+Get http://localhost:5094/reports/
+
+###
+Get http://localhost:5094/files/this/is/some/file/path
+
+###
+Get http://localhost:5094/search?q="Query"&page=2
+
+###
+Get http://localhost:5094/store/electronics/123/sale?inStock=false
